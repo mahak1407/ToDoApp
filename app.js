@@ -4,10 +4,12 @@ const taskList = document.getElementById("taskList");
 const addTaskbtn = document.getElementById("addTaskBtn")
 
 
+
 function getTasksFromStorage() {
-    const tasks = JSON.parse(localStorage.getItem("tasks"))
-    return tasks;
+    const tasks = JSON.parse(localStorage.getItem("tasks"));
+    return tasks ? tasks : [];
 }
+
 
 function saveTasksToStorage(tasks) {
     localStorage.setItem("tasks", JSON.stringify(tasks));
