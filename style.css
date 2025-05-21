@@ -146,3 +146,72 @@ ul li {
     display: flex;
     gap: 7px;
 }
+/* small device:phone  */
+@media only screen and (max-width: 600px) {
+    .sectionout{
+        width: 70%;
+    }
+    h1{
+        font-size: 2.3rem;
+    }
+    .input-section{
+        width: 70%;
+    }
+    #taskInput{
+        width: 70%;
+    }
+    #taskList{
+        width: 70%;
+    }
+}
+/* tablets and large phones */
+@media only screen and (min-width:600px){
+       .sectionout{
+        width: 80%;
+       
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .input-section{
+        width: 80%;
+    }
+    #taskInput{
+        width: 75%;
+    }
+    #taskList{
+        width: 80%;
+    }
+    
+}
+
+/* landscape tablets */
+@media only screen and (min-width: 768px) {
+       .sectionout{
+        width: 90%;
+       
+    }
+    .input-section{
+        width: 90%;
+    }
+    #taskList{
+        width: 90%;
+    }
+    
+}
+
+
+
+/* extra large devices--laptop /desktops */
+@media only screen and (min-width:1200px){
+       .sectionout{
+        width: 100%;
+
+    }
+    .input-section{
+        width: 100%;
+    }
+    #taskList{
+        width: 100%;
+    }
+}
