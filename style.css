@@ -148,39 +148,45 @@ ul li {
 }
 /* small device:phone  */
 @media only screen and (max-width: 600px) {
+    .main{
+        margin: 0px;
+        padding-left: 20px;
+        width: 100%;
+
+    }
     .sectionout{
-        width: 70%;
+        width: 105%;
     }
     h1{
-        font-size: 2.3rem;
+        font-size: 2.6rem;
     }
     .input-section{
-        width: 70%;
+        width: 105%;
     }
     #taskInput{
         width: 70%;
     }
     #taskList{
-        width: 70%;
+        width: 105%;
     }
 }
 /* tablets and large phones */
 @media only screen and (min-width:600px){
        .sectionout{
-        width: 80%;
+        width: 85%;
        
     }
     h1{
         font-size: 2.5rem;
     }
     .input-section{
-        width: 80%;
+        width: 85%;
     }
     #taskInput{
         width: 75%;
     }
     #taskList{
-        width: 80%;
+        width: 85%;
     }
     
 }
